@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "github.com/TheDP66/react-go-grpc-server/pb";
+
+message HelloRequest {
+    string text = 1;
+}
+
+message HelloResponse {
+    string text = 1;
+}
